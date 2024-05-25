@@ -1,4 +1,5 @@
 # local-redirector
+![NPM Version](https://img.shields.io/npm/v/local-redirector)
 
 **local-redirector** is a simple CLI based HTTP proxy server for Node.js. It helps you manage local URL redirections during development and testing. By specifying a target URL, you can create a local proxy server that redirects to your chosen target.
 
