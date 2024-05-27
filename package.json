@@ -1,6 +1,6 @@
 {
   "name": "local-redirector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple HTTP proxy server built with Node.js and the http-proxy library.",
   "main": "index.js",
   "bin": {
