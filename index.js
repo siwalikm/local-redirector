@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import http from "http";
 import httpProxy from "http-proxy";
 import ip from "ip";
@@ -37,7 +38,7 @@ const startServer = (proxy) => {
     .createServer((req, res) => proxy.web(req, res))
     .listen(PORT, () => {
       const url = `http://${ip.address()}:${PORT}`;
-      console.log("Vist local redirect server at:", url);
+      console.log("Visit local-redirected server at:", url);
     });
 }
 
